@@ -25,6 +25,9 @@ app.get('/contact.html', (req,res) => {
 app.get('/blog.html', (req,res) => {
     res.render('Site/blog')
 })
+app.get('/login.html', (req,res) => {
+    res.render('Site/login')
+})
 
 
 /*
